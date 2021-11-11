@@ -69,3 +69,18 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.hour-block {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  margin: 15px;
+  padding: 10px;
+}
