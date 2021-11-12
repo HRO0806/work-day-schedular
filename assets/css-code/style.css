@@ -80,7 +80,25 @@ ul {
   font-size: 25px;
   width: 100%;
   height: 100px;
-  background-color: grey;
   margin: 15px;
   padding: 10px;
+  border-top: solid #191B1F;
+}
+
+.hour-block p {
+  width: 900px;
+  height: 75px;
+  background-color: grey;
+  margin: auto;
+}
+
+.form-control {
+  color: #191B1F;
+  width: 900px;
+  background-color: grey;
+  border-radius: 0;
+  position: relative;
+  left: 10px;
+  font-size: 25px;
+  margin: auto;
 }
