@@ -88,17 +88,33 @@ ul {
 .hour-block p {
   width: 900px;
   height: 75px;
-  background-color: grey;
+  background-color: white;
+  border: solid #000000;
   margin: auto;
 }
 
+.save-button {
+  width: 100px;
+  height: 75px;
+  background-color: #77dd77;
+}
+
 .form-control {
-  color: #191B1F;
+  color: #000000;
   width: 900px;
-  background-color: grey;
+  background-color: white;
+  border: solid #000000;
   border-radius: 0;
   position: relative;
   left: 10px;
   font-size: 25px;
+  margin: auto;
+}
+
+.test {
+  width: 900px;
+  height: 75px;
+  background-color: white;
+  border: solid #000000;
   margin: auto;
 }
