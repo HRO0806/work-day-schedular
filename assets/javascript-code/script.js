@@ -1,22 +1,16 @@
-
+var test = moment().format('dddd MMM DD')
 var rememberOne = localStorage.getItem('1');
-console.log(rememberOne);
 var rememberTwo = localStorage.getItem('2');
-console.log(rememberTwo);
 var rememberThree = localStorage.getItem('3');
-console.log(rememberThree);
 var rememberFour = localStorage.getItem('4');
-console.log(rememberFour);
 var rememberFive = localStorage.getItem('5');
-console.log(rememberFive);
 var rememberSix = localStorage.getItem('6');
-console.log(rememberSix);
 var rememberSeven = localStorage.getItem('7');
-console.log(rememberSeven);
 var rememberEight = localStorage.getItem('8');
-console.log(rememberEight);
 var rememberNine = localStorage.getItem('9');
-console.log(rememberNine);
+
+console.log(test);
+$('.date').text(test);
 
 $(".hour-1").text(rememberOne);
 $(".hour-2").text(rememberTwo);

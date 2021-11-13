@@ -118,3 +118,7 @@ ul {
   border: solid #000000;
   margin: auto;
 }
+
+.date {
+  font-size: 50px;
+}
