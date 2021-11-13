@@ -134,38 +134,47 @@ var save = function() {
         console.log(text);
 
         $('.save-button-1').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('1', text); 
         })
 
         $('.save-button-2').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('2', text); 
         })
 
         $('.save-button-3').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('3', text); 
         })
 
         $('.save-button-4').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('4', text); 
         })
 
         $('.save-button-5').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('5', text); 
         })
 
         $('.save-button-6').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('6', text); 
         })
 
         $('.save-button-7').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('7', text); 
         })
 
         $('.save-button-8').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('8', text); 
         })
 
         $('.save-button-9').on('click', function() {
+            alert('Your task has been saved!');
             localStorage.setItem('9', text); 
         })
 
