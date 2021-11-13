@@ -1,4 +1,6 @@
-var test = moment().format('dddd MMM DD')
+
+var currentDate = moment().format('dddd MMM DD');
+var currentHour = moment().format('HH')
 var rememberOne = localStorage.getItem('1');
 var rememberTwo = localStorage.getItem('2');
 var rememberThree = localStorage.getItem('3');
@@ -8,9 +10,93 @@ var rememberSix = localStorage.getItem('6');
 var rememberSeven = localStorage.getItem('7');
 var rememberEight = localStorage.getItem('8');
 var rememberNine = localStorage.getItem('9');
+var blockOne = $('#block-1').val(1);
+var blockTwo = $('#block-2').val(2);
+var blockThree = $('#block-3').val(3);
+var blockFour = $('#block-4').val(4);
+var blockFive = $('#block-5').val(5);
+var blockSix = $('#block-6').val(6);
+var blockSeven = $('#block-7').val(7);
+var blockEight = $('#block-8').val(8);
+var blockNine = $('#block-9').val(9);
 
-console.log(test);
-$('.date').text(test);
+$('.date').text(currentDate);
+
+currentHour = parseInt(currentHour);
+
+console.log(currentHour);
+
+if($('#block-1').val() < currentHour) {
+    $('#block-1').addClass('past');
+} else if($('#block-1').val() === currentHour) {
+    $('#block-1').addClass('present');
+} else {
+    $('#block-1').addClass('future');
+}
+
+if ($('#block-2').val() < currentHour) {
+    $('#block-2').addClass('past');
+} else if($('#block-2').val() === currentHour) {
+    $('#block-2').addClass('present');
+} else {
+    $('#block-2').addClass('future');
+}
+
+if ($('#block-3').val() < currentHour) {
+    $('#block-3').addClass('past');
+} else if($('#block-3').val() === currentHour) {
+    $('#block-3').addClass('present');
+} else {
+    $('#block-3').addClass('future');
+}
+
+if ($('#block-4').val() < currentHour) {
+    $('#block-4').addClass('past');
+} else if($('#block-4').val() === currentHour) {
+    $('#block-4').addClass('present');
+} else {
+    $('#block-4').addClass('future');
+}
+
+if ($('#block-5').val() < currentHour) {
+    $('#block-5').addClass('past');
+} else if($('#block-5').val() === currentHour) {
+    $('#block-5').addClass('present');
+} else {
+    $('#block-5').addClass('future');
+}
+
+if ($('#block-6').val() < currentHour) {
+    $('#block-6').addClass('past');
+} else if($('#block-6').val() === currentHour) {
+    $('#block-6').addClass('present');
+} else {
+    $('#block-6').addClass('future');
+}
+
+if ($('#block-7').val() < currentHour) {
+    $('#block-7').addClass('past');
+} else if($('#block-7').val() === currentHour) {
+    $('#block-7').addClass('present');
+} else {
+    $('#block-7').addClass('future');
+}
+
+if ($('#block-8').val() < currentHour) {
+    $('#block-8').addClass('past');
+} else if($('#block-8').val() === currentHour) {
+    $('#block-8').addClass('present');
+} else {
+    $('#block-8').addClass('future');
+}
+
+if ($('#block-9').val() < currentHour) {
+    $('#block-9').addClass('past');
+} else if($('#block-9').val() === currentHour) {
+    $('#block-9').addClass('present');
+} else {
+    $('#block-9').addClass('future');
+}
 
 $(".hour-1").text(rememberOne);
 $(".hour-2").text(rememberTwo);
