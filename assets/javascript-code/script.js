@@ -1,6 +1,6 @@
 
 var currentDate = moment().format('dddd MMM DD');
-var currentHour = moment().format('HH')
+var currentHour = moment().format('hh')
 var rememberOne = localStorage.getItem('1');
 var rememberTwo = localStorage.getItem('2');
 var rememberThree = localStorage.getItem('3');
@@ -10,15 +10,15 @@ var rememberSix = localStorage.getItem('6');
 var rememberSeven = localStorage.getItem('7');
 var rememberEight = localStorage.getItem('8');
 var rememberNine = localStorage.getItem('9');
-var blockOne = $('#block-1').val(1);
-var blockTwo = $('#block-2').val(2);
-var blockThree = $('#block-3').val(3);
-var blockFour = $('#block-4').val(4);
-var blockFive = $('#block-5').val(5);
-var blockSix = $('#block-6').val(6);
-var blockSeven = $('#block-7').val(7);
-var blockEight = $('#block-8').val(8);
-var blockNine = $('#block-9').val(9);
+var blockOne = $('#block-1').val(9);
+var blockTwo = $('#block-2').val(10);
+var blockThree = $('#block-3').val(11);
+var blockFour = $('#block-4').val(12);
+var blockFive = $('#block-5').val(13);
+var blockSix = $('#block-6').val(14);
+var blockSeven = $('#block-7').val(15);
+var blockEight = $('#block-8').val(16);
+var blockNine = $('#block-9').val(17);
 
 $('.date').text(currentDate);
 
